@@ -289,7 +289,7 @@ patients_13_16_years_educated_age_onset_mean = np.mean(x_patients_13_16_years_ed
 patients_16_20_years_educated_age_onset_mean = np.mean(x_patients_16_20_years_educated_age_onset)
 patients_20_plus_years_educated_age_onset_mean = np.mean(x_patients_20_plus_years_educated_age_onset)
 
-#caculating the mean of each group using the std model for mean 
+#caculating the std of each group using the std model 
 patients_0_13_years_educated_age_onset_std = np.std(x_patients_0_13_years_educated_age_onset)
 patients_13_16_years_educated_age_onset_std = np.std(x_patients_13_16_years_educated_age_onset)
 patients_16_20_years_educated_age_onset_std = np.std(x_patients_16_20_years_educated_age_onset)
@@ -334,5 +334,3 @@ plt.text(
     ha="right",
     va="top",
     fontsize=12,
-)
-plt.show()
