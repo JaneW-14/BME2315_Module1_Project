@@ -334,3 +334,5 @@ plt.text(
     ha="right",
     va="top",
     fontsize=12,
+)
+plt.show()
